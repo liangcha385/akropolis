@@ -267,7 +267,7 @@ public class ItemStackBuilder {
 
         itemMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
         itemStack.setItemMeta(itemMeta);
-        itemStack.addUnsafeEnchantment(Enchantment.ARROW_INFINITE, 1);
+        //itemStack.addUnsafeEnchantment(Enchantment.ARROW_INFINITE, 1);
     }
 
     public ItemStack build() {
